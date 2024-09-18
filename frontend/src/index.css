@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+
+  background: rgb(240, 238, 238);
+}
+ion-icon {
+  color: rgb(230, 230, 237);
+}
