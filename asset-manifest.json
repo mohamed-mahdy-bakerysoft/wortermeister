@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/wortermeister/static/css/main.56a09f29.css",
+    "main.js": "/wortermeister/static/js/main.d796001b.js",
+    "index.html": "/wortermeister/index.html",
+    "main.56a09f29.css.map": "/wortermeister/static/css/main.56a09f29.css.map",
+    "main.d796001b.js.map": "/wortermeister/static/js/main.d796001b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.56a09f29.css",
+    "static/js/main.d796001b.js"
+  ]
+}
