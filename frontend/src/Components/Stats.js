@@ -5,7 +5,6 @@ import axios from "axios";
 
 const Stats = () => {
   const [mywords, setMywords] = useState([{}]);
-  const [indice, setIndice] = useState(0);
   const [loading, setLoading] = useState(true);
 
   const bringAllWords = async () => {

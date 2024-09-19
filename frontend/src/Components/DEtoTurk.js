@@ -9,7 +9,6 @@ const DEtoTurk = () => {
   const [indice, setIndice] = useState(0)
   const [bgcolor, setBgcolor] = useState()
   const [phrases, setPhrases] = useState([])
-  const [wordMean, setWordMean] = useState([])
   const [loading, setLoading] = useState(true);
 
   const bringAllWords = async ()=> {
