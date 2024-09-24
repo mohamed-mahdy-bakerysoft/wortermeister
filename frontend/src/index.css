@@ -4,8 +4,17 @@
 
 body {
 
-  background: rgb(240, 238, 238);
+  background: rgb(253, 254, 254);
 }
 ion-icon {
   color: rgb(230, 230, 237);
+}
+
+@layer components {
+  .verb-list {
+    @apply text-slate-800  mt-2 max-sm:text-sm ;
+  }
+  .verb-span {
+    @apply text-xl text-red-700 pl-2 max-sm:text-sm;
+  }
 }
