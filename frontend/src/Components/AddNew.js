@@ -120,6 +120,7 @@ const AddNew = () => {
         ...prevValues,
         [focusedField]: prevValues[focusedField] + specialChar, // Append the special character to the focused field
       }));
+      turkceInputRef.current.focus();
     }
 
   }
@@ -157,7 +158,7 @@ const AddNew = () => {
             <select name="artikel" id="artikel"
               value={formData.artikel}
               onChange={handleChange}
-              className='w-20 h-8 pl-2 bg-white rounded grid place-content-center border-2'>
+              className='w-20 h-8 pl-2 bg-white rounded grid place-content-center border-2 font-serif'>
               <option value="der">der</option>
               <option value="die">die</option>
               <option value="das">das</option>
