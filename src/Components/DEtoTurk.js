@@ -9,7 +9,6 @@ const DEtoTurk = () => {
   const [indice, setIndice] = useState(0)
   const [bgcolor, setBgcolor] = useState()
   const [phrases, setPhrases] = useState([])
-  const [wordMean, setWordMean] = useState([])
   const [loading, setLoading] = useState(true);
 
   const bringAllWords = async ()=> {
@@ -98,7 +97,8 @@ const DEtoTurk = () => {
       <div className= {`h-140 w-full grid justify-center col-span-2 rounded-xl ${bgcolor} `}> 
         <div className="relative h-112 overflow-hidden group  w-180 grid place-items-center">
           <img src={mywords[indice].photolink} alt="Image" className="w-auto h-96 rounded-xl
-           object-fill place-self-center transition-opacity duration-300 group-hover:opacity-0"/>
+           object-fill place-self-center transition-opacity duration-300 group-hover:opacity-0"
+           />
           <div className="relative inset-0 flex items-center justify-center text-gray-950 text-lg transition-opacity duration-300 w-full">
             <ul>
               <li className='text-slate-800 font-bold text-xl block text-center relative'>{ mywords[indice]?.artikel  }  { mywords[indice].word}</li>
